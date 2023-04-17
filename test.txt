@@ -1,2 +1,0 @@
-This is testing for Git
-Adding second line to test my knowledge
