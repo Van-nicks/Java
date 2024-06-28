@@ -8,11 +8,11 @@ public class BubbleSort {
         System.out.println(Arrays.toString(bubbleSort(arr)));
     }
     public static int[] bubbleSort(int[] arr){
+        int n= arr.length;
         for (int i=0; i< arr.length; i++){
-            int n= arr.length;
-            for (int j=0; j<n-1; j++){
-                if (arr[j]>arr[j+1]){
-                    swap(arr, j, j+1);
+            for (int j=0; j<n-1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    swap(arr, j, j + 1);
                 }
             }
             n--;
